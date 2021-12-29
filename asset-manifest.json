@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chart-creater/static/css/main.31d6cfe0.css",
+    "main.js": "/chart-creater/static/js/main.4e6f9105.js",
+    "static/js/787.4ea12487.chunk.js": "/chart-creater/static/js/787.4ea12487.chunk.js",
+    "index.html": "/chart-creater/index.html",
+    "main.4e6f9105.js.map": "/chart-creater/static/js/main.4e6f9105.js.map",
+    "787.4ea12487.chunk.js.map": "/chart-creater/static/js/787.4ea12487.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.4e6f9105.js"
+  ]
+}
