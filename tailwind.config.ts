@@ -53,7 +53,7 @@ const config: Config = {
   			}
   		},
   		fontFamily: {
-  			sans: ['var(--font-robotoCondensed)', ...theme.fontFamily.sans]
+  			sans: ['var(--font-inter)', ...theme.fontFamily.sans]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

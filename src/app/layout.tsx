@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Roboto_Condensed } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "'Cats Stats - Basketball Chart Utility",
 };
 
-const robotoCondensed = Roboto_Condensed({
+const inter = Inter({
   weight: "variable",
-  variable: "--font-robotoCondensed",
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased ${robotoCondensed.variable}`}>
+      <body className={`antialiased ${inter.variable} font-sans`}>
         {children}
       </body>
     </html>
