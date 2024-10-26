@@ -133,7 +133,10 @@ function ShotFrequencyChart() {
     if (percentile <= 25) {
       return "#d2222d";
     }
-    return "#ffbf00";
+    if (percentile > 25 && percentile < 75) {
+      return "#ffbf00";
+    }
+    return "#a9a9a9";
   }
 
   const chartData = useMemo(() => {
