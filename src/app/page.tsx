@@ -127,6 +127,10 @@ function ShotFrequencyChart() {
   }, [chartRef]);
 
   function determineFill(percentile: number) {
+    // If no percentile is set (0 or empty), return gray
+    if (!percentile) {
+      return "#a9a9a9";
+    }
     if (percentile >= 75) {
       return "#238823";
     }
